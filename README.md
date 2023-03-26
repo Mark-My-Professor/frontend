@@ -1,5 +1,8 @@
 # MarkMyProf
 
+> **Note**
+> Nuxt is cool
+
 ## Build Setup
 
 ```bash
