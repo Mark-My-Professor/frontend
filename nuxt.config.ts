@@ -1,13 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    // '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module', idk not working sadge
     'nuxt-windicss',
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@nuxtjs/google-fonts',
     'nuxt-chatgpt'
   ],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
   windicss: {
     analyze: true // very cool windicss analyzer to see what classes are used
   },
