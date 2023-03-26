@@ -9,13 +9,20 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-module": "^4.0.2",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "nuxt": "^3.3.2",
-    "nuxt-windicss": "^2.6.0"
+    "nuxt-chatgpt": "^0.1.9",
+    "nuxt-windicss": "^2.6.0",
+    "prettier": "^2.8.7"
   },
   "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0",
     "@pinia/nuxt": "^0.4.7",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
     "pinia": "^2.0.33"
   },
   "overrides": {
