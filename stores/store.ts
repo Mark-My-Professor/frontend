@@ -1,5 +1,3 @@
-import { defineStore } from 'pinia'
-
 export const useStore = defineStore('store', () => {
   const { send } = useChatgpt()
 

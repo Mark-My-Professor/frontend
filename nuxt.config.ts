@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   },
   pinia: {
     autoImports: [
+      'defineStore', // automatically imports `defineStore` for every store
       ['defineStore', 'acceptHMRUpdate'] // automatically imports `defineStore` and enables HMR for pinia stores
     ]
   },
@@ -20,12 +21,12 @@ export default defineNuxtConfig({
     dirs: ['stores'] // automatically import all files from the stores directory
   },
   chatgpt: {
-    apiKey: 'Your apiKey here goes here'
+    apiKey: 'Your apiKey here goes here xd'
   },
   googleFonts: {
     families: {
-      Inter: [400, 500, 600, 700],
-      Poppins: [400, 500, 600, 700]
+      Poppins: [400, 500, 600, 700],
+      'Syne+Mono': [400, 500, 600, 700]
     }
   }
 })

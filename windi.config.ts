@@ -1,3 +1,11 @@
 export default {
-  attributify: true
+  attributify: true,
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        mono: ['Syne Mono', 'monospace']
+      }
+    }
+  }
 }
