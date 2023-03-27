@@ -24,9 +24,12 @@ Build an awesome webapp with Vue + Typescript + these guys:
 - Netlify integration
 - GitHub workflows for projects and Dependabot with auto-merge
 
-## See more
+## Nuxt Passive Bonuses
 
 - [Nuxt 3](https://v3.nuxtjs.org/)
+- Auto-import components and store modules, never have to import anything
+- Generate routes from the pages directory
+- `nuxt.config.ts` has (almost) all the config in one place
 
 ## Usage
 
