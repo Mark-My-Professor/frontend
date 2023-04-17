@@ -22,7 +22,7 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "@pinia/nuxt": "^0.4.7",
     "@vueuse/core": "^10.0.2",
-    "@vueuse/nuxt": "^9.13.0",
+    "@vueuse/nuxt": "^10.0.2",
     "pinia": "^2.0.33"
   },
   "overrides": {
