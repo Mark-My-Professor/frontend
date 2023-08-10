@@ -3,14 +3,16 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-#version: 2
-#updates:
+version: 2
+updates:
 
-#  - package-ecosystem: "npm"
-#    directory: "/"
-#    schedule:
-#      interval: "weekly"
-#    groups:
-#       dev-dependencies:
-#          patterns:
-#            - "*"       # Combine all PRs
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+       dev-dependencies:
+          patterns:
+            - "*"       # Combine all PRs
+    # disable dependabot
+    open-pull-requests-limit: 0
