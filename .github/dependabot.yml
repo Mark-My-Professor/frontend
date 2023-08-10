@@ -10,3 +10,7 @@
 #    directory: "/"
 #    schedule:
 #      interval: "weekly"
+#    groups:
+#       dev-dependencies:
+#          patterns:
+#            - "*"       # Combine all PRs
